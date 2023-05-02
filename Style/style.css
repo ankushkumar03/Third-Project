@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* background-image: url("/Style/image.png"); */
+    font-family: 'Cookie', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color:red;
+    cursor: pointer;
+    height: 23px;
+    width: 70px;
+    color: white;
+    font-weight: 800px;
+    margin-top: 50px;
+}
+button:hover{
+    background-color:white;
+    color: black;
+    font-weight: 800px;
+    border: 1px solid white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 15px;
+    width: 80px;
+    margin-top: 10px;
+    /* margin-right:10%; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 800px;
+    padding-top: 50px;
+    /* margin-left:20%; */
+}
+nav ul li a{
+    color: yellow;
+}
+
+nav ul li a:hover{
+    color:white;
+    
+}
+
+/* hero section styling  */
+section{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.section-paragraph{
+    font-size: 80px;
+    color: yellow;
+    font-weight: 800px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+/*  main button */
+.main-button {
+    width: 150px;
+    color: red;
+    margin-right: 40%;
+    align-items: center;
+}
+
+/* main section bottom or scroll img */
+
+.bottom-img{
+    float: right;
+    margin-left: 0%;
+}
